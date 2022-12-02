@@ -480,7 +480,7 @@ function update() {
 	camera.lookAt( MovingCube.position );
 }
 
-const frame_rate = 200; 
+const frame_rate = 600; 
 var previous_time = Date.now();
 
 var render = async function () { 
