@@ -166,7 +166,7 @@ function init() {
     const planeSize = 2000;
 
     const loader = new THREE.TextureLoader();
-    const texture = loader.load('http://localhost:3000/images/prettyGrass.jpg');
+    const texture = loader.load('../images/prettyGrass.jpg');
     texture.wrapS = THREE.RepeatWrapping;
     texture.wrapT = THREE.RepeatWrapping;
     texture.magFilter = THREE.NearestFilter;
