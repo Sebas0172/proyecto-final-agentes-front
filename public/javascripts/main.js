@@ -77,9 +77,9 @@ THREEx.KeyboardState.prototype.pressed	= function(keyDesc){
 }
 
 var location2 = "";
-var baseURL = 'http://localhost:5000'
-var OBJ_URL = 'http://localhost:3000/OBJModels/'
-var GLB_URL = 'http://localhost:3000/GLBModels/'
+var baseURL = 'https://pipeline-final-back-persistent-crocodile.mybluemix.net'
+var OBJ_URL = '../OBJModels/'
+var GLB_URL = '../GLBModels/'
 
 var scene, camera, renderer;
 var keyboard = new THREEx.KeyboardState();
